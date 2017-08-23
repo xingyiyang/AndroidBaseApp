@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidBaseApp</string>
+    <string name="textview">textview</string>
+    <string name="edittext">edittext</string>
+</resources>
