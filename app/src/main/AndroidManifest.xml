@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.scu.xing.androidbaseapp">
 
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,6 +23,12 @@
         <activity android:name=".ImageViewActivity"></activity>
         <activity android:name=".ButtonActivity"></activity>
         <activity android:name=".ActivityLifeActivity"></activity>
+        <activity android:name=".ToastActivity"></activity>
+        <activity android:name=".DialogActivity"></activity>
+        <activity android:name=".NotificationActivity"></activity>
+        <activity android:name=".ContextMenuActivity"></activity>
+        <activity android:name=".ContextMenuzdyActivity"></activity>
+        <activity android:name=".SubMenuActivity"></activity>
     </application>
 
 </manifest>

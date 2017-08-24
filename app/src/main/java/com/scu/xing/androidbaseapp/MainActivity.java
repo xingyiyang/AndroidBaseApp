@@ -14,6 +14,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btn_imageview;
     Button btn_button;
     Button btn_activity;
+    Button btn_toast;
+    Button btn_dialog;
+    Button btn_notification;
+    Button btn_contextmenu;
+    Button btn_contextmenuzdy;
+    Button btn_submenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +44,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_imageview = (Button)findViewById(R.id.btn_imageview);
         btn_button = (Button)findViewById(R.id.btn_button);
         btn_activity = (Button)findViewById(R.id.btn_activity);
+        btn_toast = (Button)findViewById(R.id.btn_toast);
+        btn_dialog = (Button)findViewById(R.id.btn_dialog);
+        btn_notification = (Button)findViewById(R.id.btn_notification);
+        btn_contextmenu = (Button)findViewById(R.id.btn_contextmenu);
+        btn_contextmenuzdy = (Button)findViewById(R.id.btn_contextmenuzdy);
+        btn_submenu = (Button)findViewById(R.id.btn_submenu);
     }
 
     /**
@@ -50,6 +62,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_imageview.setOnClickListener(this);
         btn_button.setOnClickListener(this);
         btn_activity.setOnClickListener(this);
+        btn_toast.setOnClickListener(this);
+        btn_dialog.setOnClickListener(this);
+        btn_notification.setOnClickListener(this);
+        btn_contextmenu.setOnClickListener(this);
+        btn_contextmenuzdy.setOnClickListener(this);
+        btn_submenu.setOnClickListener(this);
     }
 
     /**
@@ -78,6 +96,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_activity:
                 intent = new Intent(MainActivity.this, ActivityLifeActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_toast:
+                intent = new Intent(MainActivity.this, ToastActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_dialog:
+                intent = new Intent(MainActivity.this, DialogActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_notification:
+                intent = new Intent(MainActivity.this, NotificationActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_contextmenu:
+                intent = new Intent(MainActivity.this, ContextMenuActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_contextmenuzdy:
+                intent = new Intent(MainActivity.this, ContextMenuzdyActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_submenu:
+                intent = new Intent(MainActivity.this, SubMenuActivity.class);
                 startActivity(intent);
                 break;
             default:

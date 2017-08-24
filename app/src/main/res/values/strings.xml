@@ -21,4 +21,26 @@
     <string name="nv">女</string>
     <string name="weizhi">未知</string>
     <string name="activity">activity</string>
+    <string name="toast">toast</string>
+    <string name="toastdefault">默认toast</string>
+    <string name="toastdelong">长toast</string>
+    <string name="toastposichange">改变toast位置</string>
+    <string name="toastpicture">带图片的toast</string>
+    <string name="toastzdy">自定义toast</string>
+    <string name="dialog">Dialog</string>
+    <string name="dialogqueren">确认dialog</string>
+    <string name="dialogdanxuan">单选dialog</string>
+    <string name="dialogduoxuan">多选dialog</string>
+    <string name="dialogzdy">自定义dialog</string>
+    <string name="dialogliebiao">列表dialog</string>
+    <string name="queren">确认</string>
+    <string name="notification">notify</string>
+    <string name="send">发送</string>
+    <string name="cancel">取消</string>
+    <string name="contextmenu">contextmenu</string>
+    <string name="fuzhi">复制</string>
+    <string name="zhantie">粘贴</string>
+    <string name="jianqie">剪切</string>
+    <string name="contextmenuzdy">自定义conntextmenu</string>
+    <string name="submenu">submenu</string>
 </resources>

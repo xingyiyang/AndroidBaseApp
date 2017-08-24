@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/dialogqueren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogqueren"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/dialogdanxuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogdanxuan"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/dialogduoxuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogduoxuan"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/dialogliebiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogliebiao"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/dialogzdy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogzdy"
+        android:textAllCaps="false"/>
+</LinearLayout>
