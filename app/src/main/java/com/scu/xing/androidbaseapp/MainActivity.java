@@ -11,6 +11,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Intent intent;
     Button btn_textview;
     Button btn_edittext;
+    Button btn_imageview;
+    Button btn_button;
+    Button btn_activity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +35,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btn_textview = (Button)findViewById(R.id.btn_textview);
         btn_edittext = (Button)findViewById(R.id.btn_edittext);
+        btn_imageview = (Button)findViewById(R.id.btn_imageview);
+        btn_button = (Button)findViewById(R.id.btn_button);
+        btn_activity = (Button)findViewById(R.id.btn_activity);
     }
 
     /**
@@ -41,6 +47,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btn_textview.setOnClickListener(this);
         btn_edittext.setOnClickListener(this);
+        btn_imageview.setOnClickListener(this);
+        btn_button.setOnClickListener(this);
+        btn_activity.setOnClickListener(this);
     }
 
     /**
@@ -57,6 +66,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_edittext:
                 intent = new Intent(MainActivity.this, EditTextActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_imageview:
+                intent = new Intent(MainActivity.this, ImageViewActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_button:
+                intent = new Intent(MainActivity.this, ButtonActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_activity:
+                intent = new Intent(MainActivity.this, ActivityLifeActivity.class);
                 startActivity(intent);
                 break;
             default:

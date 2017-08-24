@@ -18,6 +18,9 @@
         </activity>
         <activity android:name=".TextViewActivity"></activity>
         <activity android:name=".EditTextActivity"></activity>
+        <activity android:name=".ImageViewActivity"></activity>
+        <activity android:name=".ButtonActivity"></activity>
+        <activity android:name=".ActivityLifeActivity"></activity>
     </application>
 
 </manifest>

@@ -2,4 +2,23 @@
     <string name="app_name">AndroidBaseApp</string>
     <string name="textview">textview</string>
     <string name="edittext">edittext</string>
+    <string name="xingming">姓名</string>
+    <string name="mima">密码</string>
+    <string name="dianhua">电话</string>
+    <string name="imageview">imageview</string>
+    <string name="button">button</string>
+    <string name="paomadeng">
+        我是一个很长很长很长的一段话，用来演示跑马灯的效果，精彩内容请看下回分解
+    </string>
+    <string name="pipeitext">输入2个字符匹配</string>
+    <string name="pipeitextmul">多次输入2个字符匹配</string>
+    <string name="kai">开</string>
+    <string name="guan">关</string>
+    <string name="lanqiu">篮球</string>
+    <string name="zuqiu">足球</string>
+    <string name="paiqiu">排球</string>
+    <string name="nan">男</string>
+    <string name="nv">女</string>
+    <string name="weizhi">未知</string>
+    <string name="activity">activity</string>
 </resources>
