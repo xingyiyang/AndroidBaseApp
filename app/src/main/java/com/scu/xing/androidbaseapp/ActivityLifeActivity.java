@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 /**
+ * activity的生命周期
  * Created by xing on 2017/8/24.
  */
 

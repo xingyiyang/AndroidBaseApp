@@ -118,5 +118,59 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp">
+
+        <Button
+            android:id="@+id/btn_cunchu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cunchu"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_guangbo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guangbo"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/service"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_fuwu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fuwu"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp">
+
+        <Button
+            android:id="@+id/btn_shoushi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shoushi"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+    </LinearLayout>
 
 </LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/file"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/filenew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chuangjianwenjian"
+        android:layout_marginBottom="6dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/fileeditwrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/xieru"
+        android:inputType="text"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/filewriteread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xieruduqu" />
+
+    <TextView
+        android:id="@+id/filetextviewread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/xianshishuju"
+        android:gravity="center"
+        android:padding="6dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+</LinearLayout>

@@ -66,17 +66,21 @@ public class ToastActivity extends AppCompatActivity implements View.OnClickList
         Toast toast;
         switch (i){
             case 1:
+                //默认
                 Toast.makeText(ToastActivity.this, "default", Toast.LENGTH_SHORT).show();
                 break;
             case 2:
+                //长toast
                 Toast.makeText(ToastActivity.this, "Long", Toast.LENGTH_LONG).show();
                 break;
             case 3:
+                //改变位置
                 toast = Toast.makeText(ToastActivity.this, "position change", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER,0,0);
                 toast.show();
                 break;
             case 4:
+                //带图片
                 toast = Toast.makeText(ToastActivity.this, "image show", Toast.LENGTH_SHORT);
                 LinearLayout linearLayout = (LinearLayout) toast.getView();
                 ImageView imageView = new ImageView(this);
@@ -85,6 +89,7 @@ public class ToastActivity extends AppCompatActivity implements View.OnClickList
                 toast.show();
                 break;
             case 5:
+                //自定义
                 LayoutInflater inflater = LayoutInflater.from(this);
                 View toast_view = inflater.inflate(R.layout.toastlayout,null);
                 toast = new Toast(this);

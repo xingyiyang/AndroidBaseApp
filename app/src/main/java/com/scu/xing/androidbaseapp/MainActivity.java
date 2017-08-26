@@ -20,6 +20,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btn_contextmenu;
     Button btn_contextmenuzdy;
     Button btn_submenu;
+    Button btn_datacunchu;
+    Button btn_guangbo;
+    Button btn_service;
+    Button btn_fuwu;
+    Button btn_shoushi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +55,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_contextmenu = (Button)findViewById(R.id.btn_contextmenu);
         btn_contextmenuzdy = (Button)findViewById(R.id.btn_contextmenuzdy);
         btn_submenu = (Button)findViewById(R.id.btn_submenu);
+        btn_datacunchu = (Button)findViewById(R.id.btn_cunchu);
+        btn_guangbo = (Button)findViewById(R.id.btn_guangbo);
+        btn_service = (Button)findViewById(R.id.btn_service);
+        btn_fuwu = (Button)findViewById(R.id.btn_fuwu);
+        btn_shoushi = (Button)findViewById(R.id.btn_shoushi);
     }
 
     /**
@@ -68,6 +78,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_contextmenu.setOnClickListener(this);
         btn_contextmenuzdy.setOnClickListener(this);
         btn_submenu.setOnClickListener(this);
+        btn_datacunchu.setOnClickListener(this);
+        btn_guangbo.setOnClickListener(this);
+        btn_service.setOnClickListener(this);
+        btn_fuwu.setOnClickListener(this);
+        btn_shoushi.setOnClickListener(this);
     }
 
     /**
@@ -120,6 +135,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_submenu:
                 intent = new Intent(MainActivity.this, SubMenuActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_cunchu:
+                intent = new Intent(MainActivity.this, DataCunchuActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_guangbo:
+                intent = new Intent(MainActivity.this, GuangBoActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_service:
+                intent = new Intent(MainActivity.this, ServiceActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_fuwu:
+                intent = new Intent(MainActivity.this, SystemServiceActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_shoushi:
+                intent = new Intent(MainActivity.this, ShoushiActivity.class);
                 startActivity(intent);
                 break;
             default:

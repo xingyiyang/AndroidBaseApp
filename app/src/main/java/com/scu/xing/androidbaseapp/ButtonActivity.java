@@ -14,6 +14,7 @@ import android.widget.Toast;
 import android.widget.ToggleButton;
 
 /**
+ * button按钮的响应事件
  * Created by xing on 2017/8/24.
  */
 

@@ -53,6 +53,7 @@ public class TextViewActivity extends AppCompatActivity{
         actv_1.setAdapter(adapter);
 
         mactv_1.setAdapter(adapter);
+        //设置分隔符
         mactv_1.setTokenizer(new MultiAutoCompleteTextView.CommaTokenizer());
 
     }

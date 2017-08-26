@@ -3,6 +3,13 @@
     package="com.scu.xing.androidbaseapp">
 
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
 
     <application
         android:allowBackup="true"
@@ -29,6 +36,52 @@
         <activity android:name=".ContextMenuActivity"></activity>
         <activity android:name=".ContextMenuzdyActivity"></activity>
         <activity android:name=".SubMenuActivity"></activity>
+        <activity android:name=".DataCunchuActivity"></activity>
+        <activity android:name=".datasave.SharepreferenceActivity"></activity>
+        <activity android:name=".datasave.SqliteActivity"></activity>
+        <activity android:name=".datasave.ContentProviderActivity"></activity>
+        <activity android:name=".datasave.FileActivity"></activity>
+        <activity android:name=".datasave.SqliteHelperActivity"></activity>
+        <activity android:name=".GuangBoActivity"></activity>
+        <activity android:name=".ServiceActivity"></activity>
+        <activity android:name=".SystemServiceActivity"></activity>
+        <activity android:name=".ShoushiActivity"></activity>
+
+        <receiver android:name=".broadcst.BroadcastPutong1">
+            <intent-filter
+                android:priority="100">
+                <action android:name="BC_One" />
+            </intent-filter>
+        </receiver>
+
+        <!--<receiver android:name=".broadcst.BroadcastPutong2">-->
+            <!--<intent-filter-->
+                <!--android:priority="200">-->
+                <!--<action android:name="BC_One" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <receiver android:name=".broadcst.BroadcastYouxu1">
+            <intent-filter>
+                <action android:name="BC_Two" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".broadcst.BroadcastYouxu2">
+            <intent-filter>
+                <action android:name="BC_Two" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".broadcst.BroadcastAjax2">
+            <intent-filter>
+                <action android:name="BC_Three"></action>
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".service.MyStartService"></service>
+        <service android:name=".service.MyBindService"></service>
+
     </application>
 
 </manifest>

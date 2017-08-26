@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startservice"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/startbegin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kaishi"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/startfinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jieshu"
+            android:enabled="false"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bindservice"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bindbegin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kaishi"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/bindfinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jieshu"
+            android:enabled="false"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bofang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bofang"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/shangyishou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shangyiqu"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/xiayishou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xiayishou"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/zanting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zanting"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
