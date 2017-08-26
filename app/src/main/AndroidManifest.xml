@@ -46,6 +46,7 @@
         <activity android:name=".ServiceActivity"></activity>
         <activity android:name=".SystemServiceActivity"></activity>
         <activity android:name=".ShoushiActivity"></activity>
+        <activity android:name=".CehuaMenuActivity"></activity>
 
         <receiver android:name=".broadcst.BroadcastPutong1">
             <intent-filter

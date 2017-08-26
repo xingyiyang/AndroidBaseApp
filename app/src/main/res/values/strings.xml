@@ -85,4 +85,7 @@
     <string name="shoushi">手势</string>
     <string name="shoushiuadong">手势滑动</string>
     <string name="suolong">索隆</string>
+    <string name="cehuamenu">侧滑菜单</string>
+    <string name="amazon">amazon</string>
+    <string name="caidan">菜单</string>
 </resources>

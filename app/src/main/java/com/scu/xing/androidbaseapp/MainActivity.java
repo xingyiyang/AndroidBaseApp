@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btn_service;
     Button btn_fuwu;
     Button btn_shoushi;
+    Button btn_cehuamenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_service = (Button)findViewById(R.id.btn_service);
         btn_fuwu = (Button)findViewById(R.id.btn_fuwu);
         btn_shoushi = (Button)findViewById(R.id.btn_shoushi);
+        btn_cehuamenu = (Button)findViewById(R.id.btn_cehuamenu);
     }
 
     /**
@@ -83,6 +85,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_service.setOnClickListener(this);
         btn_fuwu.setOnClickListener(this);
         btn_shoushi.setOnClickListener(this);
+        btn_cehuamenu.setOnClickListener(this);
     }
 
     /**
@@ -155,6 +158,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_shoushi:
                 intent = new Intent(MainActivity.this, ShoushiActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_cehuamenu:
+                intent = new Intent(MainActivity.this, CehuaMenuActivity.class);
                 startActivity(intent);
                 break;
             default:
