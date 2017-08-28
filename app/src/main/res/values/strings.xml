@@ -88,4 +88,8 @@
     <string name="cehuamenu">侧滑菜单</string>
     <string name="amazon">amazon</string>
     <string name="caidan">菜单</string>
+    <string name="listview">listview</string>
+    <string name="nianling">年龄</string>
+    <string name="xignbie">性别</string>
+    <string name="aihao">爱好</string>
 </resources>

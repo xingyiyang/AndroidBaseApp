@@ -173,10 +173,18 @@
             android:textAllCaps="false"/>
 
         <Button
-            android:id="@+id/btn_cehuamenu"
+        android:id="@+id/btn_cehuamenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cehuamenu"
+        android:layout_weight="1"
+        android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_listview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/cehuamenu"
+            android:text="@string/listview"
             android:layout_weight="1"
             android:textAllCaps="false"/>
     </LinearLayout>
